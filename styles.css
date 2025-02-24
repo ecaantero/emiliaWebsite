@@ -1,0 +1,143 @@
+/* styling for h1 */
+h1 {
+    padding-left: 200px;
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for list */
+li {
+    padding-left: 200px;
+}
+
+/* Styling for padded text */
+.padded-text {
+    padding-left: 200px;
+}
+
+/* body styling */
+body {
+    padding-top: 0; 
+}
+
+/* Content styling */
+.content {
+    padding-top: 200px;
+}
+
+/* nvbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+/* styling for "emilia's website" */
+.website-link {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: black; 
+}
+
+
+.nav-links {
+    display: flex;  
+    gap: 20px;  
+}
+
+/* nav bar styling */
+.navbar a {
+    text-decoration: none; 
+    color: black; 
+    margin: 0 10px; 
+}
+
+.navbar a:not(.website-link) {
+    padding-top: 0;  
+}
+
+.text-wrapper {
+    max-width: 600px; 
+    margin: 100px auto 0 100px;
+    text-align: justify ; 
+    line-height: 1.6; 
+}
+
+h3 {
+    padding-left: 100px;
+    color: rgb(3, 66, 82);
+}
+
+/* image */ 
+.content-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 900px; 
+    margin: 50px auto 0 100px;
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+/* image styling */
+.image-right {
+    width: 400px; 
+    height: auto;
+    margin-left: 20px; 
+}
+
+.spacer {
+    height: 50px;
+}
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.image-container {
+    width: 30%;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.image-container h3 {
+    margin-bottom: 10px;
+}
+.image-container p {
+    margin-top: 10px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+/* make paadding smaller in UL LI */ 
+.lessPadding-list li {
+    padding-left: 5px;
+}
+
+.background-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 60px; 
+    background-color: #a9d3ff; 
+    z-index: -1; 
+}
+
+.background-Middle {
+    position: absolute;
+    top: 250px; 
+    left: 0;
+    width: 100vw; 
+    height: 280px; 
+    background-color: #ecffeb; 
+    z-index: -1; 
+}
